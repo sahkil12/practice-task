@@ -1,0 +1,119 @@
+/* practice style start */
+
+/* banner styles section  */
+
+.new-year-intro{
+
+
+    background-image: linear-gradient(#070211c5, #07021180), url("../images/Banner Image.png");
+  background-size: cover;
+  background-position: center;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto; 
+  border-radius: 10px; 
+  overflow: hidden;
+  margin-top: 50px ;
+  margin-bottom: 120px ;
+
+  
+        
+}
+
+
+
+/* fonts for everyone  */
+
+.merriweather-fonts {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+
+  /* font style */
+  
+  .big-t {
+
+    font-size: 72px ;
+    font-weight: 900;
+  }
+
+  .short-t{
+    font-size: 32px;
+  }
+
+  .intro-text{
+    text-align: center;
+    color: white;
+    padding: 117px 344px;
+    
+  }
+
+  
+  .holiday-discount{
+
+    text-align: center;
+    height: 810px;
+    margin-bottom: 120px;
+
+  }
+
+.flat-discount{
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.dis-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    padding-bottom: 6px;
+}
+.dis-subtitle{
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 48px;
+}
+
+/* 3rd banner style section */
+
+.party-banner{
+    height: 600px; 
+   background-image: linear-gradient(#070211ac, #000000aa,#00000065,#00000084) ,url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    border-radius: 16px;
+    background-position: center;
+    margin: 0 auto;
+}
+.party-heading{
+    font-size: 64px;
+    color: white;
+    
+}
+.party-title{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 68px;
+   
+}
+
+.party-join{
+
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    /* padding-bottom: 250px; */
+}
+
+.mid-party{
+
+    padding-top:136px ;
+    padding-left:126px ;
+}
