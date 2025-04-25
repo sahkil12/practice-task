@@ -59,7 +59,7 @@
 
     text-align: center;
     height: 810px;
-    margin-bottom: 120px;
+    margin-bottom: 230px;
 
   }
 
@@ -91,29 +91,89 @@
     border-radius: 16px;
     background-position: center;
     margin: 0 auto;
+   margin-bottom: 120px;
+   
 }
-.party-heading{
+ .mid-party .party-heading{
     font-size: 64px;
     color: white;
-    
+    margin-left: 36px;
+    line-height: 80px;
+    margin-right: 550px;
+    margin-top: 10px;
+    letter-spacing: 7%;
+
 }
-.party-title{
+.mid-party .party-title{
     font-size: 18px;
     color: white;
     margin-bottom: 68px;
-   
+    margin-top: 4px;
+    padding-right: 500px ;
+    margin-left: 36px;
+    line-height: 30px;
+  font-family:inherit ;
+
+
 }
 
-.party-join{
-
+ .mid-party .party-join{
+margin-left: 60px;
     font-size: 22px;
     font-weight: bold;
     color: white;
-    /* padding-bottom: 250px; */
+    font-family:inherit;
+   
 }
 
 .mid-party{
 
     padding-top:136px ;
     padding-left:126px ;
+   text-align: left;
+
+}
+
+/* 4th party layer  */
+
+.share-size{
+  font-weight: 600;
+  font-size: 32px;
+  font-family: inherit;
+}
+
+.pic-date> p> span {
+  color: #FF0000;
+}
+
+.btn-size{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #FF0000;
+  padding: 16px 32px;
+  border-radius: 8px;
+ 
+
+}
+
+.pic-date{
+width: 1320px ;
+height: 485px;
+background-image: linear-gradient(#ff000023, #ff000000 , #ff000000, #ff000000);
+text-align: center;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+}
+
+
+
+.time{
+    padding-bottom: 48px;
+}
+
+
+.place{
+  padding-top: 100px;
 }
