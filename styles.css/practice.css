@@ -2,22 +2,22 @@
 
 /* banner styles section  */
 
-.new-year-intro{
+.new-year-intro {
 
 
-    background-image: linear-gradient(#070211c5, #07021180), url("../images/Banner Image.png");
+  background-image: linear-gradient(#070211c5, #07021180), url("../images/Banner Image.png");
   background-size: cover;
   background-position: center;
   width: 1320px;
   height: 600px;
-  margin: 0 auto; 
-  border-radius: 10px; 
-  overflow: hidden;
-  margin-top: 50px ;
-  margin-bottom: 120px ;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 120px;
 
-  
-        
+
+
 }
 
 
@@ -25,155 +25,242 @@
 /* fonts for everyone  */
 
 .merriweather-fonts {
-    font-family: "Merriweather", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-  
-
-
-  /* font style */
-  
-  .big-t {
-
-    font-size: 72px ;
-    font-weight: 900;
-  }
-
-  .short-t{
-    font-size: 32px;
-  }
-
-  .intro-text{
-    text-align: center;
-    color: white;
-    padding: 117px 344px;
-    
-  }
-
-  
-  .holiday-discount{
-
-    text-align: center;
-    height: 810px;
-    margin-bottom: 230px;
-
-  }
-
-.flat-discount{
-    color: #FF0000;
-    font-size: 88px;
-    font-weight: bold;
-    padding-bottom: 8px;
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
-.dis-title{
-    font-size: 24px;
-    font-weight: 500;
-    color: #FF0000;
-    padding-bottom: 6px;
+
+
+
+/* font style */
+
+.big-t {
+
+  font-size: 72px;
+  font-weight: 900;
 }
-.dis-subtitle{
-    font-size: 48px;
-    font-weight: bold;
-    padding-bottom: 48px;
+
+.short-t {
+  font-size: 32px;
+}
+
+.intro-text {
+  text-align: center;
+  color: white;
+  padding: 117px 344px;
+
+}
+
+
+.holiday-discount {
+
+  text-align: center;
+  height: 810px;
+  margin-bottom: 230px;
+
+}
+
+.flat-discount {
+  color: #FF0000;
+  font-size: 88px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.dis-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #FF0000;
+  padding-bottom: 6px;
+}
+
+.dis-subtitle {
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 48px;
 }
 
 /* 3rd banner style section */
 
-.party-banner{
-    height: 600px; 
-   background-image: linear-gradient(#070211ac, #000000aa,#00000065,#00000084) ,url(../images/Vectorrr.png);
-    background-repeat: no-repeat;
-    width: 1320px;
-    border-radius: 16px;
-    background-position: center;
-    margin: 0 auto;
-   margin-bottom: 120px;
-   
-}
- .mid-party .party-heading{
-    font-size: 64px;
-    color: white;
-    margin-left: 36px;
-    line-height: 80px;
-    margin-right: 550px;
-    margin-top: 10px;
-    letter-spacing: 7%;
-
-}
-.mid-party .party-title{
-    font-size: 18px;
-    color: white;
-    margin-bottom: 68px;
-    margin-top: 4px;
-    padding-right: 500px ;
-    margin-left: 36px;
-    line-height: 30px;
-  font-family:inherit ;
-
+.party-banner {
+  height: 600px;
+  background-image: linear-gradient(#070211ac, #000000aa, #00000065, #00000084), url(../images/Vectorrr.png);
+  background-repeat: no-repeat;
+  width: 1320px;
+  border-radius: 16px;
+  background-position: center;
+  margin: 0 auto;
+  margin-bottom: 120px;
 
 }
 
- .mid-party .party-join{
-margin-left: 60px;
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    font-family:inherit;
-   
+.mid-party .party-heading {
+  font-size: 64px;
+  color: white;
+  margin-left: 36px;
+  line-height: 80px;
+  margin-right: 550px;
+  margin-top: 10px;
+  letter-spacing: 7%;
+
 }
 
-.mid-party{
+.mid-party .party-title {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 68px;
+  margin-top: 4px;
+  padding-right: 500px;
+  margin-left: 36px;
+  line-height: 30px;
+  font-family: inherit;
+  
 
-    padding-top:136px ;
-    padding-left:126px ;
-   text-align: left;
+
+}
+
+.mid-party .party-join {
+  margin-left: 60px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  font-family: inherit;
+
+}
+
+.mid-party {
+
+  padding-top: 136px;
+  padding-left: 126px;
+  text-align: start;
+  
 
 }
 
 /* 4th party layer  */
 
-.share-size{
+.share-size {
   font-weight: 600;
   font-size: 32px;
   font-family: inherit;
 }
 
-.pic-date> p> span {
+.pic-date>p>span {
   color: #FF0000;
 }
 
-.btn-size{
+.btn-size {
   font-size: 20px;
   font-weight: bold;
   color: white;
   background-color: #FF0000;
   padding: 16px 32px;
   border-radius: 8px;
+  border: none;
+
+
+}
+
+.pic-date {
+  width: 1320px;
+  height: 485px;
+  background-image: linear-gradient(#ff000023, #ff000000, #ff000000, #ff000000);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+
+.time {
+  padding-bottom: 48px;
+}
+
+
+.place {
+  padding-top: 100px;
+}
+
+/* new year best offer part */
+
+.best-offer {
+  display: flex;
+  height: 465px;
+  width: 1320px;
+  margin: 0 auto;
+  gap: 70px;
+margin-top: 120px;
+justify-content: center;
+align-items: center;
+margin-bottom: 120px;
+
+}
+
+/* 1- first part style  */
+
+.first-part {
+
+  /* margin-right: 70px; */
+  text-align: left;
+}
+
+.first-title {
+  font-size: 20px;
+  font-weight: 400px;
+  font-family: inherit;
+  color: #FF0000;
+}
+
+.first-heading {
+  font-size: 38px;
+  padding-bottom: 22px;
+  padding-top: 5px;
+
+}
+
+.first-subtitle {
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: left;
+}
+
+/* center part style */
+
+.center-part {
+  border: 14px solid #ff0000;
+  border-radius: 50%;
+  margin-right: 118px;
+  
  
 
 }
-
-.pic-date{
-width: 1320px ;
-height: 485px;
-background-image: linear-gradient(#ff000023, #ff000000 , #ff000000, #ff000000);
-text-align: center;
-align-items: center;
-justify-content: center;
-margin: 0 auto;
+.center-part img {
+  width:365px ;
+  height: 365px ;
+  border-radius: 50%;
+  border: 19px solid rgb(255, 255, 255);
+  
 }
 
-
-
-.time{
-    padding-bottom: 48px;
+.first-part .center-part .last-part{
+  text-align: center;
 }
 
-
-.place{
-  padding-top: 100px;
+.year{
+  font-size: 48px;
+  font-weight: bold;
+  color: #FF0000;
+  font-family: initial;
+}
+.last-title{
+font-size: 20px;
+font-family: inherit;
+color: rgba(7, 2, 17, 0.6);
+padding-bottom: 40px;
+padding-top: 10px;
+text-align: left;
 }
